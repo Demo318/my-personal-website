@@ -1,0 +1,14 @@
+---
+layout: base
+---
+<!-- TODO: Implement 'itemscope' microdata for these pages. Schema.org -->
+
+<h2>{{page.title}}</h2>
+
+<!-- TODO: Find better way to store and retrieve date formating. -->
+
+{%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+
+{{ page.date | date: date_format }}
+
+{{ content }}
