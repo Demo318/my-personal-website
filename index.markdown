@@ -15,7 +15,7 @@ comments: false
 
 {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
 {% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> on {{ post.date | date: date_format }}</li>
+  <li><a href="{{ post.post_url }}">{{ post.title }}</a> on {{ post.date | date: date_format }}</li>
 {% endfor %}
 
 </ul>
