@@ -10,7 +10,7 @@ related_posts:
 other_posts:
 ---
 
-Personal branding has become incredibly important. There was a time on the interenet when the preferred the preferred medium of communication was through pseudonymous accounts.
+Personal branding has become incredibly important. There was a time on the internet when the preferred the preferred medium of communication was through pseudonymous accounts.
 
 Today, the paradigm of the internet has change. No longer are we exchanging just information (esp. information that falls outside of mainstream channels). These days the internet serves for acquiring value. The trove of information has no bottom. The trick is finding something thats useful.
 
@@ -18,11 +18,11 @@ As such, it's important to cut through the clutter of bots, [rent seeking](https
 
 ## My Starter Tech Stack
 
-I build this website as I'm currently taking courses to further expand my technical skillset. This will not be a fully featured web application, probably ever, but I hope to still use this space to feature my growing developer vocabulary.
+I build this website as I'm currently taking courses to further expand my technical skill set. This will not be a fully featured web application, probably ever, but I hope to still use this space to feature my growing developer vocabulary.
 
 ### [Jekyll](https://jekyllrb.com/)
 
-A powerfull tool for building static websites, Jekyll allows me to craft most of my material in [Markdown](https://www.markdownguide.org/) and use the [Liquid](https://shopify.github.io/liquid/) template engine behind the scenes to craft the layouts.
+A powerful tool for building static websites, Jekyll allows me to craft most of my material in [Markdown](https://www.markdownguide.org/) and use the [Liquid](https://shopify.github.io/liquid/) template engine behind the scenes to craft the layouts.
 
 ### [HTML 5](https://blog.hubspot.com/blog/tabid/6307/bid/5847/a-marketer-s-guide-to-html5.aspx) & [CSS 3](https://www.tutorialrepublic.com/css-tutorial/)
 
