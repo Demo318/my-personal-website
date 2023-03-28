@@ -7,8 +7,11 @@ layout: base
 
 <!-- TODO: Find better way to store and retrieve date formating. -->
 
+<!-- TODO: Display tags and categories related to post -->
+
 {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
 
 {{ page.date | date: date_format }}
 
 {{ content }}
+

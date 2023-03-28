@@ -1,13 +1,13 @@
 ---
+title: "Building My Personal Website With Jekyll"
 layout: post
-title: Building My Personal Website With Jekyll
 date:   2023-03-28 10:55:00 -0500
 date_updated: false
-categories: code
-tags: "my personal website" jekyll html css github "tech stack"
+categories: [code]
+tags: ["my personal website", jekyll, html, css, github, "tech stack"]
 comments: true
-related_posts:
-other_posts:
+related_posts: false
+other_posts: false
 ---
 
 Personal branding has become incredibly important. There was a time on the internet when the preferred the preferred medium of communication was through pseudonymous accounts.
