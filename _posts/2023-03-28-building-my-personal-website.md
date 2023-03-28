@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building My Personal Website With Jekyll"
+title: Building My Personal Website With Jekyll
 date:   2023-03-28 10:55:00 -0500
 date_updated: false
 categories: code
