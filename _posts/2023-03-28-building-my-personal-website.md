@@ -4,7 +4,7 @@ layout: post
 date:   2023-03-28 10:55:00 -0500
 date_updated: false
 categories: [code]
-tags: ["my personal website", jekyll, html, css, github, "tech stack"]
+tags: ["my personal website", jekyll, html, css, github, javascript, "tech stack"]
 comments: true
 related_posts: false
 other_posts: false

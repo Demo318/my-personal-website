@@ -3,8 +3,8 @@ layout: post
 title:  "Post Reference Material"
 date:   2023-03-27 18:34:18 -0500
 date_updated: false
-categories: jekyll update
-tags: 
+categories: [code, family, fitness, faith, sales]
+tags: [comma, "separated list"]
 comments: true
 related_posts: post-1 post-2 post-3
 other_posts: post-4 post-5 post-6
@@ -66,3 +66,38 @@ Three or four other posts from within the same cateogory. Shold be filenames wit
 ### Other Posts
 
 Three or four posts from outside of the current category. Same logic as `Related Posts`.
+
+## SEO Guide
+
+Based on [this video](https://www.youtube.com/watch?v=rpwD50v0Ubo). Key principles to achieving solid search rankings.
+
+### Find 3 Keywords
+
+Use [Answer The Public](https://answerthepublic.com/) to identify what people are searching for. Write content that fits with what those people are likely looking for.
+
+Ideally highly searched, low competition. When you search for those keywords you don't find anything particularly useful.
+
+### Short Tail Keyword
+
+A phrase that people will actually searching for that's quite specific.
+
+Instead of *keto* try *keto diet breakfast recipes*.
+
+Can also visit related subreddits to see what kind of questions people are asking that they would also likely be searching for.
+
+### Create Epic Content
+
+Information has to be rich, deep, and useful. Anywhere from 500 - 5,000 words, whatever it takes to ensure you've thoroughly answered whatever the person might be searching for.
+
+Well structured, oftentimes interspersed with original images related to the topic at hand.
+
+### Add A Hook
+
+Something within the post that makes someone say, "Wow! I need to link to this."
+
+- Stat
+- Case Study Example
+- Unique Strategy
+- Rare Interview
+- Tool or Widget
+- Visualization
