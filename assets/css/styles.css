@@ -1,5 +1,78 @@
-container {
-  max-width: 600px;
-  margin: auto;
-  display: block;
+/* general styling resets */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* uncomment to see borders around content
+  border-width: 1px;
+  border-style: dotted;
+  border-color: green;
+  */
+}
+
+
+/* remove icon and indent from unordered lists */
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+
+/* all items that need display: flex */
+
+body,
+#home-button,
+header,
+.header-links {
+  display: flex;
+}
+
+
+/* all items that need flex-direction: column */
+
+body {
+  flex-direction: column;
+}
+
+
+/* begin general styles */
+
+body {
+  align-items: stretch;
+  width: 100%;
+}
+
+header {
+  justify-content: space-between;
+}
+
+#home-button {
+  text-decoration: none;
+  color: black;
+  align-items: flex-end;
+  gap: 16px;
+  padding-bottom: 24px;
+  margin-top: -20px;
+}
+
+#logo-sigma {
+  font-family: 'Times New Roman', serif;
+  font-size: 72px;
+}
+
+#logo-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+}
+
+.header-links {
+  align-items: center;
+  font-size: 18px;
+  gap: 16px;
+  padding-right: 24px;
+}
+
+.header-links > li > a {
+  text-decoration: none;
+  color: black;
 }

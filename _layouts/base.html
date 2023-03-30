@@ -24,14 +24,13 @@
     <link rel="manifest" href="{{site.baseurl}}/assets/img/favicon//site.webmanifest">
   </head>
   <body>
-    <container>
       {% include header.html %}
       <main>
         <h1>{{ site.title }}</h1>
         {{ content }}
 
-        {% include comments.html %}
+        
       </main>
-    </container>
+      {% include comments.html %}
   </body>
 </html>
