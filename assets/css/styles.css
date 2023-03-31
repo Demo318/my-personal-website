@@ -24,7 +24,9 @@ body,
 #home-button,
 header,
 .header-links,
-.main {
+.main,
+.blog-posts-list,
+.blog-posts-list > li {
   display: flex;
 }
 
@@ -32,7 +34,8 @@ header,
 /* all items that need flex-direction: column */
 
 body,
-.main {
+.main,
+.blog-posts-list > li {
   flex-direction: column;
 }
 
@@ -93,4 +96,40 @@ header {
 
 .main > h1 {
   padding: 24px 0px;
+}
+
+.main > h2 {
+  padding: 18px 0px;
+}
+
+/* homepage blog list */
+
+.blog-posts-list {
+  gap: 24px;
+  justify-items: space-evenly;
+}
+
+.blog-posts-list > li {
+  font-family: Helvetica, Arial, sans-serif;
+  justify-content: space-evenly;
+  flex: 0 1 275px;
+  height: 125px;
+  border-width: 2px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+}
+
+.blog-posts-list > li > a {
+  color: rgb(207, 128, 0);
+  text-decoration: none;
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+}
+
+.post-list-publish-date {
+  align-self: flex-start;
+  justify-self: end;
+  padding-left: 16px;
 }
