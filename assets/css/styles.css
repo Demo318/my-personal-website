@@ -23,14 +23,16 @@ ul {
 body,
 #home-button,
 header,
-.header-links {
+.header-links,
+.main {
   display: flex;
 }
 
 
 /* all items that need flex-direction: column */
 
-body {
+body,
+.main {
   flex-direction: column;
 }
 
@@ -42,8 +44,11 @@ body {
   width: 100%;
 }
 
+/* header styles */ 
 header {
   justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 #home-button {
@@ -75,4 +80,17 @@ header {
 .header-links > li > a {
   text-decoration: none;
   color: black;
+}
+
+/* main styles */
+
+.main {
+  max-width: 60%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main > h1 {
+  padding: 24px 0px;
 }
