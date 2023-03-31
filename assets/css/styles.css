@@ -133,3 +133,34 @@ header {
   justify-self: end;
   padding-left: 16px;
 }
+
+/* post display styling */
+
+.blog-post > * {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blog-post > p,
+.blog-post > blockquote > p {
+  margin: 16px 0px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.blog-post > h2 {
+  margin-top: 32px;
+}
+
+.blog-post > h3 {
+  font-size: 18px;
+  font-weight: 525;
+}
+
+
+.blog-post > blockquote {
+  margin-left: 48px;
+  margin-bottom: 16px;
+  padding: 8px;
+  background-color: rgba(211, 211, 211, 0.536);
+  border-radius: 8px;
+}
