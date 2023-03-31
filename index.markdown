@@ -6,6 +6,7 @@ layout: base
 title: home
 comments: false
 ---
+# The Personal Homepage of Devin Mork
 
 ## Blog Posts
 
